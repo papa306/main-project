@@ -1,0 +1,229 @@
+body {
+    background-color: #000000;
+    color: #FFD700;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: #111111;
+    border-bottom: 3px solid #FFD700;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFD700;
+    margin-right: 40px;
+}
+
+.nav-links {
+    float: left;
+    padding-top: 8px;
+}
+
+.nav-links a {
+    color: #FFD700;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.search-box {
+    float: right;
+    background-color: #222222;
+    border: 1px solid #FFD700;
+    color: #FFD700;
+    padding: 6px;
+    width: 200px;
+}
+
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.left-column {
+    width: 22%;
+    float: left;
+    margin-right: 2%;
+}
+
+.middle-column {
+    width: 50%;
+    float: left;
+    margin-right: 2%;
+}
+
+.right-column {
+    width: 22%;
+    float: left;
+}
+
+
+.book-cover {
+    width: 100%;
+    border: 3px solid #FFD700;
+    margin-bottom: 15px;
+}
+
+
+.meta {
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+
+.tags {
+    margin-top: 15px;
+}
+
+.tag {
+    background-color: #1a1a1a;
+    color: #FFD700;
+    border: 1px solid #FFD700;
+    padding: 4px 10px;
+    display: inline-block;
+    margin: 3px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+
+.btn {
+    background-color: #FFD700;
+    color: #000000;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+
+.btn:hover {
+    background-color: #FFFF00;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #FFD700;
+    border: 2px solid #FFD700;
+    text-align: center;
+}
+
+.btn-outline:hover {
+    background-color: #FFD700;
+    color: #000000;
+}
+
+.btn-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+
+.box {
+    border: 1px solid #FFD700;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #111111;
+    margin-top: 20px;
+}
+
+.box-header {
+    margin-bottom: 15px;
+}
+
+.active-tab {
+    color: #FFD700;
+    font-weight: bold;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 5px;
+}
+
+.inactive-tab {
+    margin-left: 20px;
+    color: #aaaaaa;
+}
+
+.ai-badge {
+    background-color: #FFD700;
+    color: #000000;
+    padding: 3px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.box-text {
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+.show-more {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+
+.sidebar-btn {
+    border: 1px solid #FFD700;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #111111;
+    cursor: pointer;
+    color: #FFD700;
+}
+
+.sidebar-btn:hover {
+    background-color: #222222;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 26px;
+}
+
+h3 {
+    margin-top: 0;
+    color: #FFD700;
+}
+
+a {
+    color: #FFD700;
+}
+
+.contact-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FFD700;
+    color: #000000;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #FFD700;
+}
+
+.contact-btn:hover {
+    background-color: #000000;
+    color: #FFD700;
+}
